@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/styles/style.css">
     <title>ArtBox</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <section class="artbox section">
+            <ul class="artbox--list list">
+                <li class="list--btn">Описание</li>
+                <li class="list--btn">Детали</li>
+                <li class="list--btn">Отзывы</li>
+            </ul>
+            <div class="info-send">
+                <h2 class="info--send--title">Оставьте свой отзыв на “Ароматическое саше”</h2>
+                <textarea placeholder="Ваш отзыв*" required ame="message" id="" cols="30" rows="10" class="info--send--title--msg"></textarea>
+                <div class="info--send--about">
+                    <input placeholder="Имя*" required type="text" name="Name" id="">
+                    <input placeholder="Телефон*" required type="tel" name="Mobile" id="">
+                    <input placeholder="Email" type="email" name="Email" id="">
+                </div>
+                <div class="info--send--submit submit">
+                        <button class="submit--btn" type="submit">Отправить</button>
+                    <div class="submit--acception acception">
+                        <label class="acception--text" for="acception-form">Сохранить моё имя, email и адрес сайта в этом браузере для последующих моих комментариев.</label>
+                        <input class="acception--checkbox" type="checkbox" name="save-name-email" id="acception-form">
+                      <!---  <span class="acception--false-checkbox"></span>  Кастомный чекбокс пробовал--->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>

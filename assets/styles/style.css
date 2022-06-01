@@ -15,3 +15,9 @@ ol,
 li {
     list-style: none;
 }
+
+.section {
+    padding: 5px 15px; /*--Верхний и нижний паддинги для красоты и безопасности--*/
+    max-width: calc(1335px + 15px*2);
+    margin: 0 auto;
+}
