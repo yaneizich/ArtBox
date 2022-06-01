@@ -1,0 +1,154 @@
+.artbox {
+    background: #FBF7F6;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.artbox--list {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.list--btn {
+    /* padding: 16px 165px 14px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    max-width: 445px;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #371030;
+    background-color: #F9F0EE;
+ }  
+
+.list--btn:first-child {
+    border-radius: 15px 0px 0px 0px;
+ }
+
+.list--btn:last-child {
+    border-radius: 0 15px 0 0;
+}
+
+.list--btn:hover {
+    font-weight: 900;
+    color: #9A3C48;
+    background-color: #FFB0BA;
+}
+
+.info-send {
+    margin: 50px;
+}
+
+.info--send--title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 167%;
+    letter-spacing: 0.04em;
+    color: #371030;
+}
+
+.info--send--title--msg {
+    resize: none;
+    width: 100%;
+    background-color: #F9F0EE;
+    border: none;
+    margin: 25px 0 0 0;
+}
+
+input::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    letter-spacing: 0.04em;
+    color: #000000;
+    opacity: 0.5;
+    display: flex;
+}
+
+textarea::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    letter-spacing: 0.04em;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.info--send--about {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0 0;
+}
+
+.info--send--about > * {
+    max-width: 387px;
+    width: 100%;
+    background: #F9F0EE;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 0 13px 25px;
+}
+
+.info--send--submit{
+    margin: 30px 0 0 0;
+}
+
+.submit--btn {
+    background: #FFB0BA;
+    box-shadow: 3px 3px 0px 3px #DE8E98;
+    border-radius: 100px;
+    padding: 20px 61px;
+    margin: 0 30px 0 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    border: none;
+    color: #9A3C48;
+}
+
+.submit--btn:hover {
+    transition-duration: 3s;
+    background-color: rgb(4, 68, 96);
+    opacity: 0.7;
+    transition-property: background-color opacity;
+}
+
+.submit--acception {
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+.acception--text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 250%;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.acception--checkbox {
+   /* position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;*/ /*-----Пытался убрать дефолтный маркер, чтобы сделать кастомный------*/
+    align-self: center;
+    margin: 0 15px 0 0;
+}
