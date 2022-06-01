@@ -141,14 +141,35 @@ textarea::placeholder {
     line-height: 250%;
     letter-spacing: 0.04em;
     color: #000000;
+    /*-------Попытка сделать кастомный Checkbox--------*/
+   /* display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; */
 }
 
 .acception--checkbox {
-   /* position: absolute;
+  /*  position: absolute;
     opacity: 0;
     cursor: pointer;
     height: 0;
-    width: 0;*/ /*-----Пытался убрать дефолтный маркер, чтобы сделать кастомный------*/
+    width: 0; */
+    /*-----Пытался убрать дефолтный маркер, чтобы сделать кастомный------*/
     align-self: center;
     margin: 0 15px 0 0;
 }
+
+/* .acception--false-checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+} */
